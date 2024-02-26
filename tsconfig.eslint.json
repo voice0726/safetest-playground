@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "types": [
+      "@types/node"
+    ],
+    "noEmit": true,
+    "allowJs": true
+  },
+  "extends": "./tsconfig.json",
+  "include": [
+    "commitlint.config.ts",
+    "lint-staged.config.js",
+    "jest.config.base.js",
+    "jest.config.js",
+    "jest.preset.js",
+    "eslint.config.js",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
